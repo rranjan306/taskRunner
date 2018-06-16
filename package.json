@@ -1,0 +1,30 @@
+{
+  "name": "taskRunner",
+  "version": "1.0.0",
+  "description": "This respository only for web developmennt task runner",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/grunt start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rranjan306/taskRunner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rranjan306/taskRunner/issues"
+  },
+  "homepage": "https://github.com/rranjan306/taskRunner#readme",
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

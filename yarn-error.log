@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/deepak/android_sdk/build-tools/26.0.2:/home/deepak/android_sdk/platform-tools:/home/deepak/android_sdk/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/java/jdk1.8.0_161/bin:/opt/gradle/gradle-3.4.1/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "taskRunner",
+    "version": "1.0.0",
+    "description": "This respository only for web developmennt task runner",
+    "main": "index.js",
+    "scripts": {
+      "start": "./node_modules/.bin/grunt start",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rranjan306/taskRunner.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rranjan306/taskRunner/issues"
+    },
+    "homepage": "https://github.com/rranjan306/taskRunner#readme",
+    "dependencies": {
+      "grunt-cli": "^1.2.0"
+    },
+    "devDependencies": {
+      "grunt": "^1.0.3",
+      "grunt-contrib-copy": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/deepak/Ionic/taskRunner/node_modules/grunt-legacy-log-utils/node_modules'
